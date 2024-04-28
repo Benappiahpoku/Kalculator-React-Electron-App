@@ -1,11 +1,51 @@
 .App {
-  text-align: center;
-}
-
-.App-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
 }
+body {
+  transition: background 0.5s ease;
+  
+
+}
+
+.light {
+  background:#3c8ed1; ;
+  color: black;
+  /* section {
+    background:white
+  } */
+  body{
+    background-color: #053d6b;
+  
+  }
+  
+}
+
+.dark {
+  background: #E26968;
+  /* color: white; */
+  body{
+    background-color: #E26968;
+  
+  }
+}
+
+
+.bar {
+  height: 300px;
+  width: 200px;
+  background: rgb(13, 13, 171);
+  border-radius: 40px;
+}
+
+.bars {
+  height: 80%;
+  width: 200px;
+  background: gray;
+  border-radius: 40px;
+}
+
+

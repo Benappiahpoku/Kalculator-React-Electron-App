@@ -1,12 +1,13 @@
-
-import './App.css';
+import "./App.css";
+import Calculator from "./components/Calculator";
+import { ThemeProvider } from "./components/ThemeProvider";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Calculator</h1>
-      </header>
+    <div>
+      <ThemeProvider>
+        <Calculator />
+      </ThemeProvider>
     </div>
   );
 }
